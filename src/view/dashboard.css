@@ -1,0 +1,184 @@
+
+
+   .root {
+       -fx-background-color: linear-gradient(to bottom right, #f0f9ff, #f7fee7);
+       -fx-font-family: "Segoe UI", Arial, sans-serif;
+   }
+
+/* ---------- LOGIN SCREEN ---------- */
+.login-wrapper {
+    -fx-background-color: linear-gradient(to bottom right, #241438, #381e59);
+}
+
+/* ---------- TOP BAR ---------- */
+.top-bar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bae6fd;
+    -fx-border-width: 0 0 1.5 0;
+    -fx-padding: 14 26;
+}
+
+.teller-badge {
+    -fx-background-color: #ecfccb;
+    -fx-text-fill: #241438;
+    -fx-border-color: #bef264;
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 6 16;
+}
+
+/* ---------- LEFT SIDEBAR (Dark Amethyst) ---------- */
+.sidebar {
+    -fx-background-color: linear-gradient(to bottom, #241438, #381e59);
+    -fx-padding: 22 16;
+    -fx-pref-width: 245;
+}
+
+.sidebar-title {
+    -fx-text-fill: #d9f99d;
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 12 4;
+}
+
+.sidebar-search {
+    -fx-background-color: #381e59;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #bae6fd;
+    -fx-border-color: #58318c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 9 12;
+}
+
+.sidebar-section-label {
+    -fx-text-fill: #7dd3fc;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 14 0 4 4;
+}
+
+.sidebar-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f0f9ff;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 14;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+}
+
+.sidebar-btn:hover {
+    -fx-background-color: rgba(56, 189, 248, 0.22);
+    -fx-text-fill: #d9f99d;
+}
+
+/* ---------- BANK CARDS ---------- */
+.bank-card {
+    -fx-background-radius: 18;
+    -fx-padding: 18;
+    -fx-effect: dropshadow(three-pass-box, rgba(36, 20, 56, 0.18), 12, 0, 0, 5);
+    -fx-cursor: hand;
+}
+
+.card-savings {
+    -fx-background-color: linear-gradient(to bottom right, #0284c7, #38bdf8, #a3e635);
+}
+
+.card-investment {
+    -fx-background-color: linear-gradient(to bottom right, #2e1065, #58318c, #0ea5e9);
+}
+
+.card-cheque {
+    -fx-background-color: linear-gradient(to bottom right, #241438, #0f766e, #7dd3fc);
+}
+
+.card-type {
+    -fx-background-color: rgba(236, 252, 203, 0.25);
+    -fx-text-fill: #ecfccb;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-padding: 4 10;
+    -fx-background-radius: 6;
+}
+
+.card-balance {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+}
+
+.card-meta {
+    -fx-text-fill: #ecfccb;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* ---------- ACTION & FORM BUTTONS ---------- */
+.primary-btn {
+    -fx-background-color: linear-gradient(to right, #0284c7, #0ea5e9);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 9 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.primary-btn:hover {
+    -fx-background-color: #0369a1;
+}
+
+.danger-btn {
+    -fx-background-color: #701a75;
+    -fx-text-fill: #ecfccb;
+    -fx-font-weight: bold;
+    -fx-padding: 9 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.danger-btn:hover {
+    -fx-background-color: #4a044e;
+}
+
+/* ---------- FORM CARDS & INPUTS ---------- */
+.form-card {
+    -fx-background-color: #ffffff;
+    -fx-padding: 26;
+    -fx-background-radius: 14;
+    -fx-border-color: #bae6fd;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 14;
+    -fx-effect: dropshadow(three-pass-box, rgba(36, 20, 56, 0.08), 10, 0, 0, 4);
+}
+
+.text-field, .password-field {
+    -fx-background-color: #f8fafc;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 7 10;
+}
+
+/* ---------- TRANSACTION TABLE ---------- */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bae6fd;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.table-view .column-header {
+    -fx-background-color: #241438;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #d9f99d;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e0f2fe;
+    -fx-text-fill: #241438;
+}
